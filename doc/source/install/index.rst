@@ -59,7 +59,13 @@ conda
 
        conda install pytest
        pytest cvxpy/tests
-
+       
+  On Windows, you may need to specify the install path with
+  ::
+  
+       conda install pytest
+       pytest C:\Users\{USER}\Anaconda3\envs\cvxpy\Lib\site-packages\cvxpy\tests
+       
 .. _install_from_source:
 
 Install from source
